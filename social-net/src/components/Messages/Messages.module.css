@@ -1,0 +1,43 @@
+.messages {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.messageItems {
+    display: grid;
+    grid-template-columns: 2fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dialoges {
+    padding: 10px;
+}
+
+.messageItems .active {
+    color: magenta;
+}
+
+.item a {
+    padding: 10px;
+    text-align: center;
+    color: lightcoral;
+    text-decoration: none;
+}
+
+.item a:focus {
+    color: gold;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

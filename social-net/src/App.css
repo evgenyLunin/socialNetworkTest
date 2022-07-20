@@ -1,0 +1,21 @@
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  width: 1000px;
+  gap: 5px;
+
+  grid-template-areas:
+    "head head"
+    "na con";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 16fr;
+}
+
+.app-wrapper-content {
+  grid-area: con;
+  background: lightsteelblue;  
+
+  border-bottom-right-radius: 20px;
+}
+

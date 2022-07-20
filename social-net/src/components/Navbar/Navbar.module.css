@@ -1,0 +1,36 @@
+.nav {
+  grid-area: na;
+  
+  background: linear-gradient(darkblue, lightblue);
+  width: 100px;
+  padding: 5px;
+
+  border-bottom-left-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.item a {
+  color: lightsteelblue;
+  text-decoration: none;
+
+  padding: 5px;
+}
+
+.item a:focus {
+  color: gold;
+}
+
+.itemF {
+  margin-top: 20px;
+}
+
+.itemF a {
+  color: lightsteelblue;
+  text-decoration: none;
+
+  padding: 5px;
+}
+
+.itemF a:focus {
+  color: gold;
+}
