@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import News from './components/News/News';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
-import FriendsList from './components/FriendsList/FriendsList';
+import UsersContainer from './components/Users/UsersContainer';
 import MessagesContainer from './components/Messages/MessagesContainer';
 
 
@@ -18,13 +18,13 @@ const App = (props) => {
         <Navbar />
         <div className='app-wrapper-content'>
           <Routes>
-            <Route path='/messages' element={<MessagesContainer store={props.store} />} />
-            <Route path='/profile' element={<Profile store={props.store} />} />
+            <Route path='/messages' element={<MessagesContainer />} />
+            <Route path='/profile' element={<Profile />} />
             
             <Route path='/news' element={<News />} />
             <Route path='/music' element={<Music />} />
             <Route path='/settings' element={<Settings />} />
-            <Route path='/friendsList' element={<FriendsList state={props.state.sideBar} />} />
+            <Route path='/users' element={<UsersContainer />} />
           </Routes>
         </div>
       </div>

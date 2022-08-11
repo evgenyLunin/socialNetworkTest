@@ -1,6 +1,5 @@
 import s from './Navbar.module.css';
 import { Link } from 'react-router-dom';
-// import FriendsList from '../FriendsList/FriendsList';
 
 const Navbar = () => {
   return <nav className={s.nav}>
@@ -20,7 +19,7 @@ const Navbar = () => {
       <Link to="/settings"> Settings</Link>
     </div>
     <div className={s.itemF}>
-      <Link to="/friendsList"> Friends List</Link>
+      <Link to="/Users"> Users </Link>
       {/* <div> FriendsList </div> */}
     </div>
   </nav>
